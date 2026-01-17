@@ -1,0 +1,42 @@
+[
+  {
+    "event_id": "E1001",
+    "timestamp": "2026-01-08T09:12:31",
+    "host": "WIN-01",
+    "user": "alice",
+    "process_name": "powershell.exe",
+    "parent_process": "explorer.exe",
+    "command_line": "powershell.exe -EncodedCommand SQBFAFgA",
+    "pid": 4321
+  },
+  {
+    "event_id": "E1002",
+    "timestamp": "2026-01-08T09:13:02",
+    "host": "WIN-01",
+    "user": "alice",
+    "process_name": "cmd.exe",
+    "parent_process": "explorer.exe",
+    "command_line": "cmd.exe /c whoami",
+    "pid": 4330
+  },
+  {
+    "event_id": "E1003",
+    "timestamp": "2026-01-08T09:14:10",
+    "host": "WIN-01",
+    "user": "SYSTEM",
+    "process_name": "powershell.exe",
+    "parent_process": "svchost.exe",
+    "command_line": "powershell.exe -NoProfile -WindowStyle Hidden",
+    "pid": 4401
+  },
+  {
+    "event_id": "E1004",
+    "timestamp": "2026-01-08T10:02:44",
+    "host": "WIN-02",
+    "user": "bob",
+    "process_name": "chrome.exe",
+    "parent_process": "explorer.exe",
+    "command_line": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
+    "pid": 5021
+  }
+]
